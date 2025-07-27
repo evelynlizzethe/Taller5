@@ -1,8 +1,7 @@
-
 package Modelo;
 
 public class Beca {
-    
+
     private String cedula;
     private String nombres;
     private String apellidos;
@@ -10,21 +9,8 @@ public class Beca {
     private String tipoBeca;
     private int semestre;
     private double montoMensual;
-    private Double ingresoFamiliar;    
+    private Double ingresoFamiliar;
     private Double promedioAcademico;
-
-    public Beca(String cedula, String nombres, String apellidos, String carrera,
-            String tipoBeca, int semestre, double montoMensual, Double ingresoFamiliar, Double promedioAcademico) {
-        this.cedula = cedula;
-        this.nombres = nombres;
-        this.apellidos = apellidos;
-        this.carrera = carrera;
-        this.tipoBeca = tipoBeca;
-        this.semestre = semestre;
-        this.montoMensual = montoMensual;
-        this.ingresoFamiliar = ingresoFamiliar;
-        this.promedioAcademico = promedioAcademico;
-    }
 
     public String getCedula() {
         return cedula;
@@ -97,5 +83,4 @@ public class Beca {
     public void setPromedioAcademico(Double promedioAcademico) {
         this.promedioAcademico = promedioAcademico;
     }
-    
 }
