@@ -10,6 +10,7 @@ public class TablaBeca {
             CREATE TABLE IF NOT EXISTS beca (
                 cedula TEXT PRIMARY KEY,
                 nombres TEXT NOT NULL,
+                apellidos TEXT NOT NULL,
                 carrera TEXT NOT NULL,
                 tipo_beca TEXT NOT NULL CHECK(tipo_beca IN ('económica', 'académica')),
                 semestre INTEGER NOT NULL,
